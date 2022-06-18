@@ -25,6 +25,10 @@ public class FXMLDocumentController implements Initializable {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
     }
+    @FXML
+    private void handleButtonBaru(ActionEvent event){
+        System.out.println("method baru");
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
