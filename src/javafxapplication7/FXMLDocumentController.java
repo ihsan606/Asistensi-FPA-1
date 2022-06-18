@@ -29,7 +29,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void handleButtonBaru(ActionEvent event){
         System.out.println("method baru");
-        label.setText("Semangat");
+        label.setText("Semangat adiva");
     }
     
     @Override
